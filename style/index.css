@@ -27,42 +27,94 @@ vertical-align: baseline;
 *{
     box-sizing: border-box;
     border:1px solid grey;
-}   
+}
+
 body{
-    line-height:3;
-    font-size:2rem;
+    line-height:2;
+    font-size:1.5rem;
+}
+
+section{
+    padding:4% 0;
+}
+
+h1, h3{
+    font-family: 'Fjalla One', sans-serif;
+  letter-spacing:3px;
+  padding:4% 0;
+}
+
+header{
+    height:90vh;
+    background-color: #BC8F8F;
 }
 
 header nav{
     width: 100%;
+    background-color: #BC8F8F;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #BC8F8F;
 }
 
-#home{
-    display: flex;
-    align-items: center;
-}
 .links{
     width: 60%;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
 }
-img{
-    width: 20%;
-    height: 20%
+
+nav a{
+    letter-spacing: 3px;
 }
-#secondpar{
-    background-color: #F5F5F5;
+
+#intro{
+    background-color: #BC8F8F;
     display: flex;
+    justify-content: center;
 }
-#secondpar .class{
-    justify-content: space-around;
-    margin: 20%;
+
+#intro .text{
+    background-color: #BC8F8F;
+    padding: 4%;
+    text-align: center;
+    width: 80%;
 }
+.text p{
+    text-align: center;
+}
+
+#secondpar{
+    background-color: whitesmoke;
+}
+
 #secondpar h3{
     text-align: center;
+    padding: 3% 0;
+}
+
+#secondpar .class{
+    display: flex;
     justify-content: space-around;
+}
+
+footer{
+    background-color: #BC8F8F;
+    color: white;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+button{
+    width:100%;
+    background-color: #BC8F8F;
+    border: 2px solid whitesmoke;
+    color: white;
+    margin-bottom: 3%;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: #BC8F8F;
+    border: 2px solid #BC8F8F;
 }
