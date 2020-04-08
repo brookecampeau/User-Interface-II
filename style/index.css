@@ -55,6 +55,9 @@ header nav{
     align-items: center;
 }
 
+.links{
+    color: white;
+}
 
 nav a{
     letter-spacing: 3px;
