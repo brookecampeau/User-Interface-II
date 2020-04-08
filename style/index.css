@@ -118,3 +118,10 @@ button:hover{
     color: #BC8F8F;
     border: 2px solid #BC8F8F;
 }
+.fa-instagram{
+padding: 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+}
