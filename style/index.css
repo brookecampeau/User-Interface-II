@@ -1,14 +1,68 @@
 /* Add CSS styling here */
 /*add Reset*/
-{body
-background-color: purple
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/*border: 0;*/
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
 }
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet");
 
 /*General Styles*/
-{body
 
+*{
+    box-sizing: border-box;
+    border:1px solid grey;
+}   
+body{
+    line-height:3;
+    font-size:2rem;
 }
 
-h1, h2, h3, h4{
-    
+header nav{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BC8F8F;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+}
+.links{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+img{
+    width: 20%;
+    height: 20%
+}
+#secondpar{
+    background-color: #F5F5F5;
+    display: flex;
+}
+#secondpar .class{
+    justify-content: space-around;
+    margin: 20%;
+}
+#secondpar h3{
+    text-align: center;
+    justify-content: space-around;
 }
